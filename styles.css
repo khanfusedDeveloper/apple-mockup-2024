@@ -75,13 +75,15 @@ ul li {
     align-items: center;
     justify-content: space-between;
     align-content: space-between;
-    overflow: visible;
+    /* overflow: visible; */
     z-index: 1;
+    overflow-y: hidden;
 }
 
 .Apple-Intelligence-Card h2,
 .Apple-Intelligence-Card p {
-    font-family: "Noto Sans", sans-serif;
+    /* font-family: "Noto Sans", sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     height: auto;
     z-index: 2;
 }
@@ -121,9 +123,154 @@ ul li {
     z-index: 1;
 }
 
+#learn-more,
+#watch-film,
+#buy {
+    border-radius: 75px;
+    padding: 11px 21px 11px 21px;
+    min-width: 28px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.17468;
+    letter-spacing: -.022em;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#learn-more {
+
+    background-color: #0071e3;
+    border-color: #0071e3;
+    color: #fff;
+    margin-right: 20px;
+
+    transition: background-color 0s ease;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#learn-more:hover {
+
+    background-color: #0077ED;
+    border-color: #0077ED;
+}
+
+
+
+#watch-film {
+
+    border-color: #0077ED;
+    color: #0077ED;
+    transition: background-color 0.3s ease;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#watch-film:hover {
+
+    background-color: #0077ED;
+    border-color: #0077ED;
+    color: #fff;
+
+}
+
 .Apple-Intelligence-Card img {
     width: 3008px;
     height: 580px;
-    transform: translateY(-30%);
+    transform: translateY(-40%);
     z-index: 0;
+}
+
+
+/* card 2 styling goes here */
+
+.Iphone-15-Pro-Card {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: black;
+    transform: translateY(-35%);
+    overflow-y: hidden;
+}
+
+.Iphone-15-Pro-Card h2,
+.Iphone-15-Pro-Card p {
+    font-family: "Noto Sans", sans-serif;
+    /* height: auto; */
+    z-index: 2;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    /* padding-bottom: 2em; */
+}
+
+.Iphone-15-Pro-Card h2 {
+    font-size: 56px;
+    height: auto;
+    line-height: 1.07143;
+    font-weight: 600;
+    padding-bottom: 15px;
+    letter-spacing: -.005em;
+    overflow: hidden;
+
+}
+
+.Iphone-15-Pro-Card .subhead {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    padding-bottom: 15px;
+    letter-spacing: .007em;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.Iphone-15-Pro-Card #learn-more {
+
+    color: white;
+
+}
+
+.iphone-15-pro-button-wrapper {
+    margin-top: 10px;
+    background-color: black;
+    z-index: 2;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.Iphone-15-Pro-Card #buy {
+    color: #0077ED;
+    border-color: #0077ED;
+    background-color: transparent;
+}
+
+.Iphone-15-Pro-Card #buy:hover {
+    color: white;
+    border-color: #0077ED;
+    background-color: #0077ED;
+
+}
+
+.Iphone-15-Pro-Card img {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    z-index: 0;
+    object-fit: fill;
+}
+
+.image-container {
+
+    height: 580px;
+    width: 100vw;
+    z-index: 0;
+    overflow: hidden;
+
 }
