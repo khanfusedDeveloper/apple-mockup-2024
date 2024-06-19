@@ -75,7 +75,6 @@ ul li {
     align-items: center;
     justify-content: space-between;
     align-content: space-between;
-    /* overflow: visible; */
     z-index: 1;
     overflow-y: hidden;
 }
@@ -264,6 +263,7 @@ ul li {
     overflow: visible;
     z-index: 0;
     object-fit: fill;
+    border-width: 0px;
 }
 
 .image-container {
@@ -272,5 +272,97 @@ ul li {
     width: 100vw;
     z-index: 0;
     overflow: hidden;
+    background-color: black;
+    border-width: 0px;
+
+}
+
+/* card 3 styling goes here */
+
+.Iphone-15-Card {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1;
+    margin-top: 20px;
+    background-color: #f5f5f7;
+    transform: translateY(-35%);
+    overflow-y: hidden;
+}
+
+.Iphone-15-Card h2,
+.Iphone-15-Card p {
+    font-family: "Noto Sans", sans-serif;
+    /* height: auto; */
+    z-index: 2;
+    background-color: f5f5f7;
+    color: black;
+    margin-top: 25px;
+    /* padding-bottom: 2em; */
+}
+
+.Iphone-15-Card h2 {
+    font-size: 56px;
+    height: auto;
+    line-height: 1.07143;
+    font-weight: 600;
+    padding-bottom: 15px;
+    letter-spacing: -.005em;
+    overflow: hidden;
+
+}
+
+.Iphone-15-Card .subhead {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    padding-bottom: 15px;
+    letter-spacing: .007em;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.iphone-15-button-wrapper {
+    margin-top: 10px;
+    background-color: f5f5f7;
+    z-index: 2;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+
+.Iphone-15-Card #buy {
+    color: #0077ED;
+    border-color: #0077ED;
+    background-color: transparent;
+}
+
+.Iphone-15-Card #buy:hover {
+    color: white;
+    border-color: #0077ED;
+    background-color: #0077ED;
+
+}
+
+.Iphone-15-Card img {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    z-index: 0;
+    object-fit: fill;
+}
+
+.iphone-15-image-container {
+
+    height: 580px;
+    width: 100vw;
+    z-index: 0;
+    overflow: hidden;
+    background-color: black;
+    border-width: 0;
+    transform: translateY(-45%);
 
 }
