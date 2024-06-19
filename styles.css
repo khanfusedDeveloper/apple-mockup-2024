@@ -1,0 +1,129 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 247);
+    overflow-x: hidden;
+}
+
+.noto-sans-normal {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.noto-sans-heavy {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.noto-sans-extra-heavy {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.navbar-nav {
+    text-align: center;
+    top: 0;
+    position: sticky;
+    background-color: rgba(245, 245, 247, .8);
+    z-index: 1;
+
+}
+
+.navbar-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 15rem;
+    background-color: rgba(245, 245, 247, .8);
+}
+
+.navbar-nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, .5);
+    font-size: 13px;
+    background-color: rgba(245, 245, 247, .8);
+}
+
+ul li {
+    margin-left: 10px;
+}
+
+/* Card Styling starts here... */
+
+/* Apple-Intelligence-Card Styling */
+.Apple-Intelligence-Card {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    overflow: visible;
+    z-index: 1;
+}
+
+.Apple-Intelligence-Card h2,
+.Apple-Intelligence-Card p {
+    font-family: "Noto Sans", sans-serif;
+    height: auto;
+    z-index: 2;
+}
+
+.Apple-Intelligence-Card h2 {
+    font-size: 56px;
+    height: auto;
+    line-height: 1.07143;
+    font-weight: 600;
+    padding-bottom: 5px;
+    letter-spacing: -.005em;
+    overflow: hidden;
+}
+
+.subhead {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+
+
+.Apple-Intelligence-Card .callout {
+    color: #6e6e73;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.Apple-Intelligence-Card .button-wrapper {
+    z-index: 1;
+}
+
+.Apple-Intelligence-Card img {
+    width: 3008px;
+    height: 580px;
+    transform: translateY(-30%);
+    z-index: 0;
+}
